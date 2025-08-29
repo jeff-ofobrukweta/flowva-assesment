@@ -22,6 +22,8 @@ import Strip from "../../assets/images/logo/strip.png";
 import ChatgptIcon from "../../assets/images/logo/chatgpt.png";
 import CanvaIcon from "../../assets/images/logo/canva.png";
 import BlenderIcon from "../../assets/images/logo/blender_icon.png";
+import ProgressDots from "../component/ProgressDots";
+import Footer from "../component/Footer";
 
 const { width } = Dimensions.get("window");
 
@@ -256,26 +258,13 @@ const App = () => {
       </View>
 
       {/* Footer */}
-      <View style={styles.footer}>
-        <Text style={styles.title}>{item.title}</Text>
-        <Text style={styles.subtitle}>{item.subtitle}</Text>
-
-        {/* Pagination inside footer */}
-        <View style={styles.dots}>
-          {slides.map((_, i) => (
-            <View
-              key={i}
-              style={[styles.dot, activeIndex === i && styles.activeDot]}
-            />
-          ))}
-        </View>
-
-        <TouchableOpacity style={styles.cta}>
-          <LinearGradient colors={["#111", "#000"]} style={styles.ctaInner}>
-            <Text style={styles.ctaText}>Get started</Text>
-          </LinearGradient>
-        </TouchableOpacity>
-      </View>
+      <Footer
+        title={item.title}
+        subtitle={item.subtitle}
+        totalSlides={slides.length}
+        activeIndex={activeIndex}
+        onGetStarted={() => console.log("CTA pressed")}
+      />
     </LinearGradient>
   );
 
