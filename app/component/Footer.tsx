@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   cta: { width: "100%", marginTop: 16 },
   ctaInner: {
     paddingVertical: 14,
-    borderRadius: 12,
+    borderRadius: 200,
     alignItems: "center",
   },
   ctaText: { color: "#fff", fontSize: 16, fontWeight: "600" },
