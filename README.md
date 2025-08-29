@@ -8,10 +8,9 @@ I used **React Native with Expo** (my strongest framework) to implement a **mobi
 ## Deliverables
 - Two onboarding pages implemented in React Native
 - Fully responsive layouts across devices
-- Clean Airbnb-inspired design system
 - Accessible and smooth user flow
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Framework**: React Native (with Expo)
 - **Language**: TypeScript
 - **Styling**: React Native StyleSheet + responsive units
@@ -27,8 +26,6 @@ I used **React Native with Expo** (my strongest framework) to implement a **mobi
 - **Responsive design** → Flexbox + scalable units for different screen sizes
 - **Pixel precision** → Followed Figma design closely, ensuring visual accuracy
 - **Smooth user flow** → Onboarding steps structured for clarity and ease of use
-
----
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
