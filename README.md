@@ -1,4 +1,34 @@
-# Welcome to your Expo app 👋
+# Flowva Onboarding Assessment 🚀
+
+This repository contains my submission for the **Flowva onboarding task**.  
+The goal was to build **2 onboarding screens** for the Flowva app, based on the provided Figma designs.  
+
+I used **React Native with Expo** (my strongest framework) to implement a **mobile-first, responsive, and pixel-perfect design**.
+
+## Deliverables
+- Two onboarding pages implemented in React Native
+- Fully responsive layouts across devices
+- Clean Airbnb-inspired design system
+- Accessible and smooth user flow
+
+## 🛠 Tech Stack
+- **Framework**: React Native (with Expo)
+- **Language**: TypeScript
+- **Styling**: React Native StyleSheet + responsive units
+- **Navigation**: Expo Router
+- **Tools**: Figma (design reference), Loom (demo walkthrough)
+
+## Demo & Code
+- **GitHub Repository**: [flowva-assesment](https://github.com/jeff-ofobrukweta/flowva-assesment)  
+- **Loom Video Walkthrough**: [Watch Demo](https://www.loom.com/share/dbf08dd2521c4d28bc8aad26960805c2?sid=5dea309b-f36b-43cc-b398-8d83b7b361ae)
+
+## 💡 Approach
+- **Component-based structure** → Reusable UI elements for consistency
+- **Responsive design** → Flexbox + scalable units for different screen sizes
+- **Pixel precision** → Followed Figma design closely, ensuring visual accuracy
+- **Smooth user flow** → Onboarding steps structured for clarity and ease of use
+
+---
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
