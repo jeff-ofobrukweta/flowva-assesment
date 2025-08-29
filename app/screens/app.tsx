@@ -12,16 +12,16 @@ import {
 import { LinearGradient } from "expo-linear-gradient";
 import { BlurView } from "expo-blur";
 
-import FramerIcon from "../assets/images/logo/framer_symbol.png";
-import FigmaIcon from "../assets/images/logo/figma.png";
-import NotionIcon from "../assets/images/logo/notion.png";
-import SlackIcon from "../assets/images/logo/slack.png";
-import MiroIcon from "../assets/images/logo/Miro-Icon.png.png";
-import LoomIcon from "../assets/images/logo/loom_icon.jpeg.png";
-import Strip from "../assets/images/logo/strip.png";
-import ChatgptIcon from "../assets/images/logo/chatgpt.png";
-import CanvaIcon from "../assets/images/logo/canva.png";
-import BlenderIcon from "../assets/images/logo/blender_icon.png";
+import FramerIcon from "../../assets/images/logo/framer_symbol.png";
+import FigmaIcon from "../../assets/images/logo/figma.png";
+import NotionIcon from "../../assets/images/logo/notion.png";
+import SlackIcon from "../../assets/images/logo/slack.png";
+import MiroIcon from "../../assets/images/logo/Miro-Icon.png.png";
+import LoomIcon from "../../assets/images/logo/loom_icon.jpeg.png";
+import Strip from "../../assets/images/logo/strip.png";
+import ChatgptIcon from "../../assets/images/logo/chatgpt.png";
+import CanvaIcon from "../../assets/images/logo/canva.png";
+import BlenderIcon from "../../assets/images/logo/blender_icon.png";
 
 const { width } = Dimensions.get("window");
 
